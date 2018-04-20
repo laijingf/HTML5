@@ -1,0 +1,145 @@
+#main-image {
+	width:1200px;
+    height:500px;
+	min-width:1080px;
+	background:linear-gradient(to right bottom,rgba(0,0,0,0.5),rgba(0,0,0,0)),url(../image/957.jpg) no-repeat;
+    background-size:1200px  500px;
+	margin:0 auto;
+}
+
+#content{
+	width:1200px;
+    height:1100px;
+	margin:0 auto;
+	
+}
+#content .book{
+	width:1000px;
+	height:350px;
+	margin:0 auto;
+}
+#content .book h2{
+	font-size:36px;
+    margin:30px;
+}
+#content .book li{
+	display:inline-block;
+	margin:5px;
+}
+#content .book a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	padding:3px 1px;
+	border-radius:5px;
+	width:40px;
+	height:25px;
+	line-height:25px;
+	color:#000;
+}
+#content .book a.selected{
+	background-color:#458b00;
+	color:#fff;
+	
+	}
+#content .book a:hover{
+	background-color:#458b00;
+	color:#fff;
+}
+#content .book input{
+	width:350px;
+	height:50px;
+	display:inline-block;
+	margin:10px;
+	font-size:20px;
+	}
+#content .book input::-webkit-input-placeholder{/*设置placeholder的属性*/
+	font-size:20px;
+	font-weight:normal;
+}
+#content .book button{
+	width:80px;
+	height:40px;
+	font-size:24px;
+	border-radius:10px;
+	cursor:pointer;
+	background:#ccc;
+	border:1px solid #ccc;
+	}
+#content .book button:hover{
+	background-color:#f60;
+	color:#fff;
+}
+#content .new{
+	width:1000px;
+	height:650px;
+	margin:0 auto;
+	}
+#content .new h2{
+	font-size:36px;
+	margin:30px;
+	}
+#content .new li{
+	display:inline-block;
+	margin:5px;
+	}
+#content .new a{
+	width:40px;
+	height:25px;
+	padding:3px 1px;
+	text-decoration:none;
+	padding:3px 5px;
+	border-radius:5px;
+	color:#000;
+}
+#content .new a:hover{
+	background-color:#458b00;
+	color:#fff;
+}
+#content .new a.selected{
+	
+	background-color:#458b00;
+	color:#fff;
+	
+	}
+#content .new table{
+	width:100%;
+	margin:20px 0 0 0;
+	border:1px solid #ddd;
+	border-collapse:collapse;
+	text-align:center;
+    line-height:50px;
+	height:50px;
+	}
+#content .new  table th{
+	border-bottom:1px solid #ddd;
+	text-align:center;
+	line-height:50px;
+	height:50px;
+	}
+#content .new table td{
+	border-bottom:1px solid #ddd;
+	text-align:center;
+	line-height:50px;
+	height:50px;
+	}
+#content .new .price{
+	color:#f60;
+	font-size:25px;
+	}
+#content .new .reserve{
+	display:inline-block;
+	background-color:#f60;
+	width:80px;
+	height:35px;
+	line-height:35px;
+	color:#fff;
+    font-size:20px;
+	border-radius:4px;
+}
+#content .more{
+	padding:5px 8px;
+	width:80px;
+	height:20px;
+	background-color:#f60;
+}

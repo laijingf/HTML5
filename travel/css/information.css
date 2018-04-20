@@ -1,0 +1,307 @@
+h2{margin:0;padding:0;}
+#main {
+	width:1200px;
+    height:500px;
+	min-width:1080px;
+	background:linear-gradient(to right bottom,rgba(0,0,0,0.5),rgba(0,0,0,0)),url(../image/957.jpg) no-repeat;
+    background-size:1200px  500px;
+	margin:0 auto;
+}
+#main .center{
+	width:1200px;
+	height:1263px;
+	color:#fff;
+}
+.center input.search {
+	width:400px;
+	height:35px;
+	border-radius:10px;
+	position:relative;
+    top:200px;
+	left:450px;
+	border:none;
+	outline:none;
+	font-size:20px;
+	}
+.center button{
+	width:50px;
+	height:35px;
+	border-radius:10px;
+	position:relative;
+	top:200px;
+	left:450px;
+	background-color:#fff;
+    border:none;
+	outline:none;
+	cursor:pointer;
+	font-size:15px;
+	}
+#main hgroup {
+	margin:-30px 80px;
+	padding:100px 0 0 50px;
+	line-height:30px;
+}
+#main h2{font-size:30px;}
+#main h3{font-size:20px;}
+
+#container {
+	width:1200px;
+	margin:10px auto;
+	min-width:1080px;
+
+	}
+#container .sidebar{
+	width:340px;
+	float:right;
+}
+#container .recommand h2{
+	font-size:24px;
+    border-bottom:1px solid #ccc;
+	padding:5px 12px;
+	color:#666;
+	text-align:center;
+	}
+#container .recommand{
+	border:1px solid #ccc ;
+	}
+#container .recommand ul{margin:10px 10px;}
+#container .recommand li{
+	display:inline-block;
+	font-size:20px;
+	margin:5px 3px;
+	
+	}
+#container .recommand a{
+	color:#000;
+	padding:3px 6px;
+	}
+#container .recommand li a:hover{
+	color:#fff;
+	background-color:#f60;
+	}
+
+#container .sidebox{
+	border:1px solid #ccc;
+	margin:0 auto;
+	}
+#container .hot{
+	margin-top:15px;
+	width:340px;
+}	
+#container .hot h2{
+	font-size:24px;
+    border-bottom:1px solid #ccc;
+	padding:5px 12px;
+	color:#666;
+	text-align:center;
+}
+
+
+#container .fig{
+	width:340px;
+	height:450px;
+	}
+#container .fig figure{
+	margin:15px 0 10px 10px;
+	display:inline-block;
+}
+#container .fig figure figcaption{
+	margin-top:5px;
+}
+
+#container .box{
+	margin-top:15px;
+	width:340px;
+	height:150px;
+}
+#container .box h2{
+	font-size:24px;
+    border-bottom:1px solid #ccc;
+	padding:5px 12px;
+	color:#666;
+	text-align:center;
+}
+#container .box ul{
+	margin:10px 5px ;
+}
+#container .box ul li{
+	display:inline;
+	margin:0 20px;
+	
+}
+#container .box a{
+	display:inline-block;
+	width:100px;
+	height:35px;
+	line-height:35px;
+	margin:5px;
+	background-color:#eee;
+	text-align:center;
+	border-radius:5px;
+	padding:2px 5px;
+	}
+#container .box a:hover{
+	background-color:#458b00;
+	color:#fff;
+}
+
+#container .list{
+	width:820px;
+	background-color:#fff;
+	float:left;
+	}
+#container .info{
+	height:45px;
+	line-height:45px;
+	background-color:#eee;
+	}
+#container .left{
+	float:left;
+	display:inline-block;
+	}
+#container .left li{
+	display:inline-block;
+	text-align:center;
+	margin:0 20px 0 0px;
+	width:150px;
+	}
+#container .left a {text-decoration:none;}
+#container .left li:first-child{
+	background-color:#fff;
+	border-top:2px solid #458b00;
+	position:relative;
+	left:2px;
+	}
+#container .right{float:right;}
+#container .right li{
+	display:inline-block;
+	margin:1px 5px;
+	text-align:center;
+	}
+#container .right a{
+	padding:8px 3px;
+	color:#666;
+	text-decoration:none;
+	width:8px 3px;
+	border-radius:4px;
+	}
+#container .right li a.selected,#container .right a:hover{
+	background-color:#458b00;
+	color:#fff;
+	}
+
+#container .tours{
+	width:820px;
+	margin-top:10px;
+	}
+#container .tour{
+	width:820px;
+	height:248px;
+	background-color:#fff;
+	border:1px solid #ccc;
+	margin-top:20px;
+	position:relative;
+	}
+#container .tour img{
+	float:left;
+	margin:5px 0 5px 20px;
+	}
+#container .tour .type{
+	width:75px;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-align:center;
+	color:#fff;
+	background-color:#59b200;
+	position:absolute;
+	top:5px;
+	left:20px;
+}
+#container .tour .disc{
+	position:absolute;
+	top:0;
+	right:0;
+	width:50px;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-align:center;
+	color:#fff;
+	background-color:#59b200;
+}
+#container .tour>figure{
+	
+}
+#container .tour figcaption{
+	float:right;
+	width:550px;
+	height:230px;
+	
+	}
+	
+#container .tour footer{
+	text-indent:1.5em;
+	font-size:18px;
+	position:absolute;
+	bottom:5px;
+	}
+#container .tour time{color:green;}
+#container .tour h2{
+	font-size:24px;
+	font-weight:narmal;
+	padding:20px 0 10px 25px;
+	}
+#container .tour h3{
+	font-size:18px;
+	font-weight:narmal;
+	padding:5px 0 10px 25px;
+	}
+#container .tour ol{
+	margin-left:15px;
+}
+#container .tour ol li{
+	padding-bottom:10px;
+}
+#container .tour mark{
+	color:#fff;
+	padding:2px 5px;
+	font-size:18px;
+	background-color:green;
+	}
+#container .tour .buy{
+	position:absolute;
+	top:10px;
+	right:50px;
+	}
+#container .tour .price{
+	color:#f60;
+	font-size:20px;
+	}
+#container .tour .price strong{font-size:36px}
+#container .tour .price s{margin-left:5px;color:#999;}
+#container .tour .reserve{
+	background-color:#f60;
+	font-size:35px;
+	border-radius:4px;
+	}
+#container .tour .reserve a{
+	text-decoration:none;
+	padding:3px 8px;
+	color:#fff;
+	}
+#container .tour .reserve a:hover{
+	background-color:#red;
+	color:#000;
+	border-radius:4px;
+	}
+#container .list .more{
+	width:200px;
+	height:30px;
+	line-height:30px;
+	margin:20px auto;
+	text-align:center;
+	border:1px solid #ccc;
+	border-radius:4px;
+	cursor:pointer;
+} 
